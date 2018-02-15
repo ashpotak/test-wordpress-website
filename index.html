@@ -9,6 +9,9 @@
 
     <!-- Bootstrap Grid CSS -->
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
     <!-- Font -->
@@ -34,9 +37,95 @@
           </div>
           <!-- /.col-md -->
         </div>
-        <!-- /.rov -->
+        <!-- /.row -->
       </div>
       <!-- /.top-nav -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="left-sidebar">
+            <ul class="left-sidebar_menu">
+              <li><a href="#">Ground</a></li>
+              <li><a href="#">Top</a></li>
+              <li><a href="#">Bottom</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Engineer</a></li>
+            </ul>
+
+            <div class="left-sidebar_object">
+              <img src="img/about.png" alt="Object">
+              <div class="left-sidebar_object-description">
+                <h3>Example of our project</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="">Learn more -></a>
+              </div>
+            </div>
+            </ul>
+
+            <div class="left-sidebar_object">
+              <img src="img/about.png" alt="Object">
+              <div class="left-sidebar_object-description">
+                <h3>Example of our project</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="">Learn more -></a>
+              </div>
+            </div>
+
+          </div><!-- /.left-sidebar -->
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-8">
+          <div class="content">
+            <h2>EBEC Challenge</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vero nam voluptatem enim,
+               reprehenderit quod, adipisci corporis mollitia recusandae odio neque voluptates quisquam incidunt
+                aspernatur distinctio harum. Nulla, fuga!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vero nam voluptatem enim,
+               reprehenderit quod, adipisci corporis mollitia recusandae odio neque voluptates quisquam incidunt
+                aspernatur distinctio harum. Nulla, fuga!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vero nam voluptatem enim,
+               reprehenderit quod, adipisci corporis mollitia recusandae odio neque voluptates quisquam incidunt
+                aspernatur distinctio harum. Nulla, fuga!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vero nam voluptatem enim,
+               reprehenderit quod, adipisci corporis mollitia recusandae odio neque voluptates quisquam incidunt
+                aspernatur distinctio harum. Nulla, fuga!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vero nam voluptatem enim,
+               reprehenderit quod, adipisci corporis mollitia recusandae odio neque voluptates quisquam incidunt
+                aspernatur distinctio harum. Nulla, fuga!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vero nam voluptatem enim,
+               reprehenderit quod, adipisci corporis mollitia recusandae odio neque voluptates quisquam incidunt
+                aspernatur distinctio harum. Nulla, fuga!</p>
+            <a href="#" class="btn btn-primary">Learn more about company</a>
+          </div><!-- Content -->
+          <div class="directions">
+            <h2>Directions</h2>
+            <div class="directions-blocks">
+              <div class="directions-block" style="
+                background-image: url('img/ubisoft.png')">
+                <h3>Projects</h3>
+              </div>
+              <div class="directions-block" style="
+                background-image: url('img/ubisoft.png')">
+                <h3>Our Projects</h3>
+              </div>
+              <div class="directions-block" style="
+                background-image: url('img/ubisoft.png')">
+                <h3>Projects</h3>
+              </div>
+              <div class="directions-block" style="
+                background-image: url('img/ubisoft.png')">
+                <h3>Projects</h3>
+              </div>
+              <div class="directions-block" style="
+                background-image: url('img/ubisoft.png')">
+                <h3>Projects Challenge</h3>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.directions -->
+        <!-- /.col-md-8 -->
+      </div>
+      <!-- /.row -->
     </div>
     <!-- /.container -->
 
@@ -48,5 +137,14 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script>window.JQuery || document.write(`<script src="js/jquery-3.2.1.slim.min.js"><\/script>`)</script>
+    <script src="slick/slick.js"></script>
+    <script>
+      $('.directions-blocks').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 4,
+        slideToScroll: 1
+      })
+    </script>
     </body>
 </html>
