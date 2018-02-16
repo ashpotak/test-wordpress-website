@@ -1,0 +1,26 @@
+{
+  "name": "test-wordpress-website",
+  "version": "1.0.0",
+  "description": "My first full website for Wordpresss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashpotak/test-wordpress-website.git"
+  },
+  "author": "ashpotak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashpotak/test-wordpress-website/issues"
+  },
+  "homepage": "https://github.com/ashpotak/test-wordpress-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat-css": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

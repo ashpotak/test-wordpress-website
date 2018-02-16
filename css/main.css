@@ -9,7 +9,7 @@ html {
 body {
   background-color: #eef3f5;
   color: #131313;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 40px;
 }
 
@@ -30,10 +30,12 @@ h2 {
   font-size: 16px;
   font-weight: 700;
 }
+
 .btn-primary {
   background-color: #009adf;
   border-bottom: 4px solid #0077ac;
 }
+
 .btn-primary:hover {
   background-color: #00a1e9;
 }
@@ -42,21 +44,25 @@ h2 {
   background-color: #ffffff;
   padding: 15px;
 }
+
 .top-nav_menu {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .top-nav_menu li {
   margin-right: 45px;
 }
+
 .top-nav_menu li a {
   text-transform: uppercase;
   text-decoration: none;
   color: #131313;
   font-weight: 700;
 }
+
 .top-nav_menu li a::after {
   content: "";
   display: block;
@@ -64,16 +70,18 @@ h2 {
   height: 2px;
   background-color: #009adf;
   -webkit-transform: translateY(37px) scale(0);
-          transform: translateY(37px) scale(0);
+  transform: translateY(37px) scale(0);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
+
 .top-nav_menu li a:hover {
   text-decoration: none;
 }
+
 .top-nav_menu li a:hover::after {
   -webkit-transform: translateY(38px) scale(1);
-          transform: translateY(38px) scale(1);
+  transform: translateY(38px) scale(1);
 }
 
 .logo img {
@@ -87,27 +95,34 @@ h2 {
 .left-sidebar {
   margin-top: 40px;
 }
+
 .left-sidebar_menu {
   list-style: none;
   padding: 0;
   background-color: #ffffff;
 }
+
 .left-sidebar_menu li {
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
+
 .left-sidebar_menu li:first-child a {
   padding-top: 20px;
 }
+
 .left-sidebar_menu li:last-child a {
   padding-bottom: 20px;
 }
+
 .left-sidebar_menu li:hover {
   background-color: #009adf;
 }
+
 .left-sidebar_menu li:hover a {
   color: #ffffff;
 }
+
 .left-sidebar_menu li a {
   display: block;
   padding: 15px 29px;
@@ -116,13 +131,16 @@ h2 {
   font-size: 16px;
   font-weight: 400;
 }
+
 .left-sidebar_object {
   margin-top: 30px;
   background-color: #ffffff;
 }
+
 .left-sidebar_object-description {
   padding: 30px;
 }
+
 .left-sidebar_object-description h3 {
   text-transform: uppercase;
   font-weight: 400;
@@ -135,6 +153,7 @@ h2 {
 .directions {
   margin-top: 85px;
 }
+
 .directions-block {
   background-color: #ffffff;
   height: 220px;
@@ -143,6 +162,7 @@ h2 {
   background-position: bottom center;
   background-repeat: no-repeat;
 }
+
 .directions-block h3 {
   color: #009adf;
   padding: 10px;
