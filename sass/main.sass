@@ -1,14 +1,16 @@
 @import "colors"
 @import "reset"
+@import "fontello"
 
 html 
  font-size: 14px
 
-body 
+body
+ margin: 0px  
  background-color: $body-bg
  color: $dark
  font-family: 'Roboto', sans-serif
- padding: 40px
+ padding-top: 40px
 
 a 
  color: $active-color 
@@ -113,3 +115,56 @@ h2
   h3 
    color: $active-color
    padding: 10px
+
+.footer
+  margin-top: 60px
+  background-color: $dark
+  color: $footer-text
+  padding: 59px 0
+  transition: all 0.1s
+  ul 
+   list-style: none
+   padding: 0
+   line-height: 32px
+  a
+   text-decoration: none
+   color: $footer-text
+   &:hover
+     color: $white
+  .copy 
+   &-title 
+    font-size: 16px
+   &-link 
+    font-size: 12px     
+   &-info
+    display: block  
+    padding-top: 56px
+    font-size: 10px 
+    line-height: 16px
+    max-width: 80%
+  &-contacts 
+   text-align: right
+   .phone
+    font-size: 20px
+    color: $active-color
+    text-transform: uppercase 
+  &-social-links  
+   text-align: right
+   li 
+     display: inline-block
+     a
+      display: inline-block
+      font-size: 18px
+      height: 42px
+      width: 42px
+      text-align: center
+      background-color: rgba($white, 0.1)
+      border-radius: 50% 
+      line-height: 42px
+      margin: 10px 0 0 10px
+      transition: 0.2s
+      &:hover
+       background-color: rgba($white, 0.9)
+       color: $dark
+       
+   
